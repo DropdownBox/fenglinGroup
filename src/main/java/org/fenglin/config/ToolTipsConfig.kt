@@ -11,6 +11,8 @@ class ToolTipsConfig {
         var IsMemberLeave: Boolean by value(true)
         var IsKickMeber: Boolean by value(true)
         var IsVerification: Boolean by value(true)
+        var IsPhotoLimited: Boolean by value(true)
+        var IsMessagingContentLimited: Boolean by value(true)
         //可用变量name
         //私聊提醒
         var MemberJoinPrivate: String by value("欢迎%name%加入本群")

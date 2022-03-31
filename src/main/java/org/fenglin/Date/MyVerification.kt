@@ -6,6 +6,6 @@ import org.fenglin.Date.MySign.Sign.provideDelegate
 
 class MyVerification {
     companion object MyVerification : AutoSavePluginData("Sign") {
-        var info: Map<Long,Integer> by value()
+        var info: Map<Long, Int> by value()
     }
 }
